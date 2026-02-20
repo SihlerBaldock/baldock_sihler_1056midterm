@@ -1,0 +1,168 @@
+#header-main {
+    background-color: gray;
+}
+
+#logo-main {
+    height: 100px;
+}
+
+#zima-black {
+    height: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#media-icons {
+    background-color: #D9D9D9;
+}
+
+@media screen and (min-width: 1200px) {
+    #nav-main {
+        display: block;
+    }
+    #media-icons {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #burger-main {
+        display: block;
+    }
+}
+
+#nav-main ul li {
+    display: inline-block;
+    font-family: Jura;
+    font-size: 24px;
+    padding-right: 50px;
+    padding-top: 15px;
+    list-style-type: none;
+}
+
+#nav-main ul li a {
+    text-decoration: none;
+}
+
+#burger-main {
+    padding-top: 25px;
+}
+
+#hero-image {
+    height: 196px;
+    background-color: #D9D9D9;
+    text-align: center;
+}
+
+#hero-main {
+    border-bottom: solid 1px black;
+}
+
+#hero-main h2 {
+    font-family: Jura;
+    font-size: 20px;
+    font-weight: regular;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    #hero-image {
+        height: 314px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #hero-image {
+        height: 500px;
+    }
+}
+
+#text-homepage {
+    padding-top: 20px;
+}
+
+#text-homepage h2 {
+    font-family: Jura;
+    font-size: 20px;
+    border-bottom: solid 1px black;
+    text-align: center;
+}
+
+#text-homepage p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: Sora;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+#products-button {
+    background-color: #D9D9D9;
+    text-align: center;
+    padding: 10px;
+}
+
+#further-questions {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#further-questions h2 {
+    font-family: Jura;
+    font-size: 20px;
+    border-bottom: solid 1px black;
+    text-align: center;
+}
+
+#further-questions p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: Sora;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+#contact-button {
+    background-color: #D9D9D9;
+    text-align: center;
+    padding: 10px;
+}
+
+#footer-main {
+    padding-top: 30px;
+    background-color: gray;
+    padding-bottom: 30px;
+}
+
+#footer-main img {
+    padding-bottom: 30px;
+}
+
+#footer-main ul {
+    padding-left: 0;
+}
+
+#footer-main ul li {
+    list-style-type: none;
+    font-family: Jura;
+    font-size: 24px;
+    padding-right: 25px;
+    padding-top: 25px;
+}
+
+#footer-main ul li a {
+    text-decoration: none;
+}
+
+#icons-footer {
+    background-color: #D9D9D9;
+    text-align: center;
+    height: 80px;
+}
+
+@media screen and (min-width: 1200px) {
+    #footer-main ul li {
+        display: inline-block;
+    }
+}
