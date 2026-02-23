@@ -25,8 +25,20 @@
     }
 }
 
+#burger-main {
+    padding-top: 25px;
+    padding-left: 15px;
+}
+
+#burger-icon {
+    height: 50px;
+}
+
 @media screen and (max-width: 1200px) {
     #burger-main {
+        display: block;
+    }
+    #burger-icon {
         display: block;
     }
 }
@@ -42,10 +54,6 @@
 
 #nav-main ul li a {
     text-decoration: none;
-}
-
-#burger-main {
-    padding-top: 25px;
 }
 
 #hero-image {
